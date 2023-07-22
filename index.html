@@ -7,20 +7,24 @@
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Custom font bebas and roboto  -->
+    <!-- Custom font bebas and roboto and Montserrat -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap"
         rel="stylesheet">
 
     <style>
         .font-bebas {
             font-family: 'Bebas Neue', sans-serif;
         }
-
         .font-roboto {
             font-family: 'Roboto', sans-serif;
         }
+        .font-montserrat{
+            font-family: 'Montserrat', sans-serif;
+        }
+
     </style>
 
 </head>
@@ -28,14 +32,22 @@
 <body>
     <header class="bg-[#FFFBF0]">
         <div class="container max-w-6xl m-auto">
-            <nav>
-                <div class="log">
-                    <div class="img">
-                        
+            <nav class="flex justify-between">
+                <div class="log flex gap-4 items-center">
+                    <div class="icon">
+                        <img src="./icons/logo-left.png" alt="Logo Icon">
+                    </div>
+                    <div class="logo-text">
+                        <h1><span>Penguin</span> Fashion</h1>
                     </div>
                 </div>
                 <div class="menu">
-
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
                 </div>
             </nav>
             <div class="flex justify-between items-center flex-col lg:flex-row pb-20">
@@ -89,7 +101,7 @@
                                 </svg> Buy Now
                             </a>
                         </div>
-                    </div> 
+                    </div>
                     <div class="p-3 rounded-xl shadow-md m-2">
                         <div class="text-center bg-gray-200 p-6 rounded-xl">
                             <img class="w-full block" src="./images/jacket-1.png" alt="Woment Jacket">
@@ -110,7 +122,7 @@
                                 </svg> Buy Now
                             </a>
                         </div>
-                    </div> 
+                    </div>
                     <div class="p-3 rounded-xl shadow-md m-2">
                         <div class="text-center bg-gray-200 p-6 rounded-xl">
                             <img class="w-full block" src="./images/jacket-1.png" alt="Woment Jacket">
@@ -131,7 +143,7 @@
                                 </svg> Buy Now
                             </a>
                         </div>
-                    </div> 
+                    </div>
                     <div class="p-3 rounded-xl shadow-md m-2">
                         <div class="text-center bg-gray-200 p-6 rounded-xl">
                             <img class="w-full block" src="./images/jacket-1.png" alt="Woment Jacket">
@@ -152,7 +164,7 @@
                                 </svg> Buy Now
                             </a>
                         </div>
-                    </div> 
+                    </div>
 
                 </div>
             </div>
